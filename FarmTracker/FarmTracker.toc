@@ -1,0 +1,12 @@
+## Interface: 16001
+## Title: Farm Tracker
+## Notes: Gold/hour for farming sessions from looted mats and coin, valued at your own AH scan prices (or vendor). UNTESTED IN-GAME (WoW: Forever not launched); API checked against Blizzard UI source only. Use at your own risk.
+## Author: Kenny
+## Version: 0.1.0
+## SavedVariables: KennyFarmTrackerDB
+## OptionalDeps: PriceLog, MatTooltip
+## X-License: MIT
+
+Compat.lua
+Core.lua
+FarmTracker.lua
