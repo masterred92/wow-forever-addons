@@ -9,16 +9,20 @@
 
 AI-assisted addons for WoW: Forever (Classic+, Midnight 12.1.5 addon API, Interface 16001), aimed at gathering and gold-making within the rules.
 **No gameplay automation:** they work out the answer ahead of time and show one clear prompt; you press every action yourself.
-No network access: the only prices are the ones from your own auction house scans.
 
-| Addon | Version | What it does | Slash |
+> **Moved:** since 2026-10-26 each addon lives in its own repo, which is where releases, issues and CurseForge/Wago packaging happen. This repo is kept as an index. The code below is frozen at the 2026-10-18 versions, and its existing GitHub releases stay as they are.
+
+| Addon | Repo | What it does | Slash |
 |---|---|---|---|
-| [MatTooltip](MatTooltip/) | 0.2.0 | AH price (your scans), vendor price and a SELL ON AH / VENDOR / HOLD verdict on Skinning and Herbalism mats, plus a never-vendor flag | `/mattip`, `/kmt` |
-| [FarmTracker](FarmTracker/) | 0.1.0 | Gold/hour for a farming session, top items, session history and a "this spot vs your best" verdict | `/kfarm`, `/farmtracker` |
-| [PriceLog](PriceLog/) | 0.1.0 | Logs prices from your own AH scans and searches, CSV export, rising/falling/stable trends | `/pricelog`, `/kpl` |
+| NeutralFlip (new) | [masterred92/NeutralFlip](https://github.com/masterred92/NeutralFlip) | Compares your faction AH with the neutral goblin AH (Booty Bay / Gadgetzan / Everlook) and lists flips worth carrying, after the 5%/15% cut | `/nflip` |
+| PriceLog | [masterred92/PriceLog](https://github.com/masterred92/PriceLog) | Logs prices from your own AH scans and searches, CSV export, rising/falling/stable trends | `/pricelog`, `/kpl` |
+| MatTooltip | [masterred92/MatTooltip](https://github.com/masterred92/MatTooltip) | AH price, vendor price and a SELL ON AH / VENDOR / HOLD verdict on Skinning and Herbalism mats, plus a never-vendor flag | `/mattip`, `/kmt` |
+| GoldPerSpot (was FarmTracker) | [masterred92/GoldPerSpot](https://github.com/masterred92/GoldPerSpot) | Gold/hour for a farming session, top items, session history and a "this spot vs your best" verdict | `/goldspot`, `/kspot` |
 
-They work alone or together. With PriceLog installed, one full scan feeds all three, so you don't need to scan more than once.
-Each addon's README has its own in-game test checklist.
+CurseForge and Wago pages are coming soon. Author profile: [MasterRed92 on CurseForge](https://www.curseforge.com/members/masterred92/projects).
+FarmTracker was renamed to GoldPerSpot because several CurseForge addons already use "FarmTracker". Sessions saved by the FarmTracker 0.1.0 pre-release don't carry over.
+
+The rest of this page describes the frozen monorepo snapshot.
 
 ## Install
 1. Download the addon zip from [Releases](https://github.com/masterred92/wow-forever-addons/releases) (or copy the folder from this repo).
