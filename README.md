@@ -19,7 +19,16 @@ AI-assisted addons for WoW: Forever (Classic+, Midnight 12.1.5 addon API, Interf
 | MatTooltip | [masterred92/MatTooltip](https://github.com/masterred92/MatTooltip) | AH price, vendor price and a SELL ON AH / VENDOR / HOLD verdict on Skinning and Herbalism mats, plus a never-vendor flag | `/mattip`, `/kmt` |
 | GoldPerSpot (was FarmTracker) | [masterred92/GoldPerSpot](https://github.com/masterred92/GoldPerSpot) | Gold/hour for a farming session, top items, session history and a "this spot vs your best" verdict | `/goldspot`, `/kspot` |
 
-CurseForge and Wago pages are coming soon. Author profile: [MasterRed92 on CurseForge](https://www.curseforge.com/members/masterred92/projects).
+Downloads (first release coming at launch, Nov 4):
+
+| Addon | CurseForge | Wago |
+|---|---|---|
+| NeutralFlip | [curseforge.com/wow/addons/neutralflip](https://www.curseforge.com/wow/addons/neutralflip) | [addons.wago.io/addons/neutralflip](https://addons.wago.io/addons/neutralflip) |
+| PriceLog | [curseforge.com/wow/addons/pricelog](https://www.curseforge.com/wow/addons/pricelog) | [addons.wago.io/addons/pricelog](https://addons.wago.io/addons/pricelog) |
+| MatTooltip | [curseforge.com/wow/addons/mattooltip](https://www.curseforge.com/wow/addons/mattooltip) | [addons.wago.io/addons/mattooltip](https://addons.wago.io/addons/mattooltip) |
+| GoldPerSpot | [curseforge.com/wow/addons/goldperspot](https://www.curseforge.com/wow/addons/goldperspot) | [addons.wago.io/addons/goldperspot](https://addons.wago.io/addons/goldperspot) |
+
+Author profile: [MasterRed92 on CurseForge](https://www.curseforge.com/members/masterred92/projects).
 FarmTracker was renamed to GoldPerSpot because several CurseForge addons already use "FarmTracker". Sessions saved by the FarmTracker 0.1.0 pre-release don't carry over.
 
 The rest of this page describes the frozen monorepo snapshot.
