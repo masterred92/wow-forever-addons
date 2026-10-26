@@ -7,10 +7,16 @@ AI-assisted addons for WoW: Forever (Classic+, Midnight 12.1.5 addon API, Interf
 
 | Addon | Repo | What it does | Slash |
 |---|---|---|---|
-| NeutralFlip (new) | [masterred92/NeutralFlip](https://github.com/masterred92/NeutralFlip) | Compares your faction AH with the neutral goblin AH (Booty Bay / Gadgetzan / Everlook) and lists flips worth carrying, after the 5%/15% cut | `/nflip` |
-| PriceLog | [masterred92/PriceLog](https://github.com/masterred92/PriceLog) | Logs prices from your own AH scans and searches, CSV export, rising/falling/stable trends | `/pricelog`, `/kpl` |
-| MatTooltip | [masterred92/MatTooltip](https://github.com/masterred92/MatTooltip) | AH price, vendor price and a SELL ON AH / VENDOR / HOLD verdict on Skinning and Herbalism mats, plus a never-vendor flag | `/mattip`, `/kmt` |
-| GoldPerSpot (was FarmTracker) | [masterred92/GoldPerSpot](https://github.com/masterred92/GoldPerSpot) | Gold/hour for a farming session, top items, session history and a "this spot vs your best" verdict | `/goldspot`, `/kspot` |
+| NeutralFlip | [masterred92/NeutralFlip](https://github.com/masterred92/NeutralFlip) | Compares your faction AH with the neutral goblin AH (Booty Bay / Gadgetzan / Everlook) and lists flips worth carrying, after the 5%/15% cut. TomTom waypoint and LDB launcher | `/nflip` |
+| PriceLog | [masterred92/PriceLog](https://github.com/masterred92/PriceLog) | Logs prices from your own AH scans and searches, CSV export, rising/falling/stable trends. LDB launcher | `/pricelog`, `/kpl` |
+| MatTooltip | [masterred92/MatTooltip](https://github.com/masterred92/MatTooltip) | AH price, vendor price and a SELL ON AH / VENDOR / HOLD verdict on Skinning and Herbalism mats, plus a never-vendor flag. Bagnon badges and LDB bag value | `/mattip`, `/kmt` |
+| GoldPerSpot (was FarmTracker) | [masterred92/GoldPerSpot](https://github.com/masterred92/GoldPerSpot) | Gold/hour for a farming session, top items, session history and a "this spot vs your best" verdict. LDB launcher | `/goldspot`, `/kspot` |
+| BRBoss (new) | [masterred92/BRBoss](https://github.com/masterred92/BRBoss) | `/brb 5` starts DBM's or BigWigs' own break bar and plays a vanilla boss line when it ends. Optional Pull Quote at pull 0 | `/brb` |
+| WipeAndWin (new) | [masterred92/WipeAndWin](https://github.com/masterred92/WipeAndWin) | Vanilla boss lines as DBM Victory/Defeat sounds and LibSharedMedia sounds for BigWigs (DBM's defeat list is empty on Forever) | `/wipeandwin` |
+| FloorIsLava (new) | [masterred92/FloorIsLava](https://github.com/masterred92/FloorIsLava) | Details! plugin: after-combat board of avoidable damage taken and deaths | `/lava` |
+| QuestieJobsDone (new) | [masterred92/QuestieJobsDone](https://github.com/masterred92/QuestieJobsDone) | Questie plugin: a peon "Job's done!" when a quest's objectives are finished, with an optional party ping | `/jd` |
+| ParchmentBars (new) | [masterred92/ParchmentBars](https://github.com/masterred92/ParchmentBars) | BigWigs bar style "Old Parchment", made from client textures | `/parchment` |
+| GruntCount (new) | [masterred92/GruntCount](https://github.com/masterred92/GruntCount) | BigWigs countdown voices from client sounds: "Critters" (gnome, goblin, gnoll, kobold, murloc) and "Work Work" (peon) | `/gruntcount` |
 
 Downloads (first release at launch, Nov 4). Report bugs on each addon's own GitHub Issues page.
 
@@ -20,6 +26,18 @@ Downloads (first release at launch, Nov 4). Report bugs on each addon's own GitH
 | PriceLog | [curseforge.com/wow/addons/pricelog](https://www.curseforge.com/wow/addons/pricelog) | [addons.wago.io/addons/pricelog](https://addons.wago.io/addons/pricelog) |
 | MatTooltip | [curseforge.com/wow/addons/mattooltip](https://www.curseforge.com/wow/addons/mattooltip) | [addons.wago.io/addons/mattooltip](https://addons.wago.io/addons/mattooltip) |
 | GoldPerSpot | [curseforge.com/wow/addons/goldperspot](https://www.curseforge.com/wow/addons/goldperspot) | [addons.wago.io/addons/goldperspot](https://addons.wago.io/addons/goldperspot) |
+| BRBoss, WipeAndWin, FloorIsLava, QuestieJobsDone, ParchmentBars, GruntCount | maybe later | coming at launch (Nov 4); GitHub until then |
+
+## Packages
+
+Suggested bundles. Install each addon on its own: neither Wago nor CurseForge has a WoW addon-pack feature that works on Forever yet (Wago UI Packs don't list Interface 16001, and CurseForge profile codes are Minecraft-only).
+
+| Bundle | Ours | Pair with |
+|---|---|---|
+| **Raid night** | BRBoss, FloorIsLava, WipeAndWin (+ ParchmentBars, GruntCount on BigWigs) | DBM or BigWigs, Details! |
+| **Goblin / AH** | NeutralFlip, PriceLog, MatTooltip, GoldPerSpot | An LDB display (ElvUI, Titan Panel, Bazooka, ChocolateBar); optional Bagnon, TomTom |
+| **Leveling** | QuestieJobsDone | Questie, TomTom |
+| **Just for laughs** | GruntCount, WipeAndWin, BRBoss (pull quotes on), QuestieJobsDone | BigWigs, DBM or BigWigs, Questie |
 
 Author profile: [MasterRed92 on CurseForge](https://www.curseforge.com/members/masterred92/projects).
 FarmTracker was renamed to GoldPerSpot because several CurseForge addons already use "FarmTracker". Sessions saved by the FarmTracker 0.1.0 pre-release don't carry over.
