@@ -1,12 +1,5 @@
 # WoW: Forever addons
 
-> [!WARNING]
-> **Untested in-game. Use at your own risk.** WoW: Forever has not launched yet (Nov 4 2026), so none of this has run in the real client.
-> - API usage is verified against Blizzard's UI source only (Gethe/wow-ui-source `forever` branch, 1.60.1 build 70374), plus luacheck and mock-client tests.
-> - Item IDs were checked against auctionhouse.fyi's Forever item data (build 1.60.1.70009), not in-game.
-> - `## Interface: 16001` is unconfirmed (the UI source .toc files show `0`).
-> - Found a bug? Use the addon's `report` command and [open an issue](https://github.com/masterred92/wow-forever-addons/issues).
-
 AI-assisted addons for WoW: Forever (Classic+, Midnight 12.1.5 addon API, Interface 16001), aimed at gathering and gold-making within the rules.
 **No gameplay automation:** they work out the answer ahead of time and show one clear prompt; you press every action yourself.
 
@@ -19,7 +12,7 @@ AI-assisted addons for WoW: Forever (Classic+, Midnight 12.1.5 addon API, Interf
 | MatTooltip | [masterred92/MatTooltip](https://github.com/masterred92/MatTooltip) | AH price, vendor price and a SELL ON AH / VENDOR / HOLD verdict on Skinning and Herbalism mats, plus a never-vendor flag | `/mattip`, `/kmt` |
 | GoldPerSpot (was FarmTracker) | [masterred92/GoldPerSpot](https://github.com/masterred92/GoldPerSpot) | Gold/hour for a farming session, top items, session history and a "this spot vs your best" verdict | `/goldspot`, `/kspot` |
 
-Downloads (first release coming at launch, Nov 4):
+Downloads (first release at launch, Nov 4). Report bugs on each addon's own GitHub Issues page.
 
 | Addon | CurseForge | Wago |
 |---|---|---|
