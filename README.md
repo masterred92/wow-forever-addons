@@ -29,6 +29,17 @@ Downloads (first release at launch, Nov 4). Report bugs on each addon's own GitH
 | GoldPerSpot | [curseforge.com/wow/addons/goldperspot](https://www.curseforge.com/wow/addons/goldperspot) | [addons.wago.io/addons/goldperspot](https://addons.wago.io/addons/goldperspot) |
 | BRBoss, WipeAndWin, FloorIsLava, QuestieJobsDone, ParchmentBars, GruntCount, DwarfExplorersBible | maybe later | coming at launch (Nov 4); GitHub until then |
 
+## Better together
+
+Every addon works fully on its own. Install several and they notice each other (never a hard dependency) and share instead of repeating work:
+
+- **One price service.** PriceLog is the shared price source. NeutralFlip, MatTooltip and GoldPerSpot read it, and an AH scan by any of them is shared, so you never scan twice within 15 minutes. Without PriceLog, MatTooltip's prices (and then Auctionator's) are used.
+- **One tooltip block.** NeutralFlip and MatTooltip add one ordered block with no repeated AH price line; MatTooltip adds PriceLog's 7-day trend.
+- **One display-bar entry.** With two or more installed, there is one "Kenny's addons" LibDataBroker entry with a menu, instead of one per addon.
+- **Each adds what it knows to the others.** GoldPerSpot shows NeutralFlip's flip value and MatTooltip's sell-or-craft verdict for your loot.
+- **No talking over each other.** BRBoss, Wipe & Win Lines, Questie: Job's Done and Grunt Count share a short voice cooldown, so two lines never play at once; the shared "Job's done!" sound is listed once in LibSharedMedia.
+- **`/<command> debug`** in any of them lists which others it is working with.
+
 ## Packages
 
 Suggested bundles. Install each addon on its own: neither Wago nor CurseForge has a WoW addon-pack feature that works on Forever yet (Wago UI Packs don't list Interface 16001, and CurseForge profile codes are Minecraft-only).
