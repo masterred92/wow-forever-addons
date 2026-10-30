@@ -17,7 +17,7 @@ AI-assisted addons for WoW: Forever (Classic+, Midnight 12.1.5 addon API, Interf
 | QuestieJobsDone (new) | [masterred92/QuestieJobsDone](https://github.com/masterred92/QuestieJobsDone) | Questie plugin: a peon "Job's done!" when a quest's objectives are finished, with an optional party ping | `/jd` |
 | ParchmentBars (new) | [masterred92/ParchmentBars](https://github.com/masterred92/ParchmentBars) | BigWigs bar style "Old Parchment", made from client textures | `/parchment` |
 | GruntCount (new) | [masterred92/GruntCount](https://github.com/masterred92/GruntCount) | BigWigs countdown voices from client sounds: "Critters" (gnome, goblin, gnoll, kobold, murloc) and "Work Work" (peon) | `/gruntcount` |
-| RecipeMaster (new) | [masterred92/RecipeMaster](https://github.com/masterred92/RecipeMaster) | Pick a material and see every recipe that uses it, with prices from PriceLog, Auctionator, TSM or Auctioneer, profit and crafting chains. Inspired by Terraria's Guide | `/rmaster`, `/craftguide` |
+| WhatCanIMake (new) | [masterred92/WhatCanIMake](https://github.com/masterred92/WhatCanIMake) | Pick a material and see every recipe that uses it, with prices from PriceLog, Auctionator, TSM or Auctioneer, profit and crafting chains. Inspired by Terraria's Guide | `/wcim`, `/craftguide` |
 
 Downloads (first release at launch, Nov 4). Report bugs on each addon's own GitHub Issues page.
 
@@ -27,7 +27,7 @@ Downloads (first release at launch, Nov 4). Report bugs on each addon's own GitH
 | PriceLog | [curseforge.com/wow/addons/pricelog](https://www.curseforge.com/wow/addons/pricelog) | [addons.wago.io/addons/pricelog](https://addons.wago.io/addons/pricelog) |
 | MatTooltip | [curseforge.com/wow/addons/mattooltip](https://www.curseforge.com/wow/addons/mattooltip) | [addons.wago.io/addons/mattooltip](https://addons.wago.io/addons/mattooltip) |
 | GoldPerSpot | [curseforge.com/wow/addons/goldperspot](https://www.curseforge.com/wow/addons/goldperspot) | [addons.wago.io/addons/goldperspot](https://addons.wago.io/addons/goldperspot) |
-| BRBoss, WipeAndWin, FloorIsLava, QuestieJobsDone, ParchmentBars, GruntCount, RecipeMaster | maybe later | coming at launch (Nov 4); GitHub until then |
+| BRBoss, WipeAndWin, FloorIsLava, QuestieJobsDone, ParchmentBars, GruntCount, WhatCanIMake | maybe later | coming at launch (Nov 4); GitHub until then |
 
 ## Packages
 
@@ -36,7 +36,7 @@ Suggested bundles. Install each addon on its own: neither Wago nor CurseForge ha
 | Bundle | Ours | Pair with |
 |---|---|---|
 | **Raid night** | BRBoss, FloorIsLava, WipeAndWin (+ ParchmentBars, GruntCount on BigWigs) | DBM or BigWigs, Details! |
-| **Goblin / AH** | NeutralFlip, PriceLog, MatTooltip, GoldPerSpot, RecipeMaster | An LDB display (ElvUI, Titan Panel, Bazooka, ChocolateBar); optional Bagnon, TomTom |
+| **Goblin / AH** | NeutralFlip, PriceLog, MatTooltip, GoldPerSpot, WhatCanIMake | An LDB display (ElvUI, Titan Panel, Bazooka, ChocolateBar); optional Bagnon, TomTom |
 | **Leveling** | QuestieJobsDone | Questie, TomTom |
 | **Just for laughs** | GruntCount, WipeAndWin, BRBoss (pull quotes on), QuestieJobsDone | BigWigs, DBM or BigWigs, Questie |
 
